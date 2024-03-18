@@ -2,10 +2,12 @@
 
 App badge for iOS.
 
+![image info](./ios-badge-screenshot.png)
+
 ## Installation
 
 ```sh
-npm install @guulabs/react-native-app-badge
+yarn add @guulabs/react-native-app-badge
 ```
 
 ## Usage
