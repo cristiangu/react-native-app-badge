@@ -1,22 +1,27 @@
-# react-native-app-badge
+# @guulabs/react-native-app-badge
 
 App badge for iOS and Android
 
 ## Installation
 
 ```sh
-npm install react-native-app-badge
+npm install @guulabs/react-native-app-badge
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-app-badge';
+import { setAppBadgeCount } from '@guulabs/react-native-app-badge';
 
 // ...
 
-const result = await multiply(3, 7);
+// Set badge
+setAppBadgeCount(3)
+
+// Clear badge
+setAppBadgeCount(0)
 ```
+
 
 ## Contributing
 
