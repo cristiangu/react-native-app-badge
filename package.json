@@ -50,7 +50,8 @@
   },
   "homepage": "https://github.com/cristiangu/react-native-app-badge#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
@@ -102,8 +103,7 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true,
-      "access": "public"
+      "publish": true
     },
     "github": {
       "release": true
