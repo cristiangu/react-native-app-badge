@@ -1,6 +1,6 @@
 # @guulabs/react-native-app-badge
 
-App badge for iOS and Android
+App badge for iOS.
 
 ## Installation
 
