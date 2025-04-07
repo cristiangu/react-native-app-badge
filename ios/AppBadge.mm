@@ -47,4 +47,13 @@ RCT_EXPORT_METHOD(setAppBadgeCount:(int)count
 }
 #endif
 
+- (void)setAppBadgeCount:(double)count {
+  [self runWithNotificationPermissions:^{
+      [UIApplication sharedApplication].applicationIconBadgeNumber = count;
+  } onPermissionError:^(NSError *error)  {
+    // TODO: permissions are not granted, send error.
+  }];
+  
+}
+
 @end
