@@ -1,6 +1,7 @@
 # @guulabs/react-native-app-badge
 
 App badge for iOS.
+Compatible with the new architecture.
 
 ![image info](./ios-badge-screenshot.png)
 
