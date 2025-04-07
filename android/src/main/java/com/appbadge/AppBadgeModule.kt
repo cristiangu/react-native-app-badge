@@ -11,10 +11,13 @@ class AppBadgeModule internal constructor(context: ReactApplicationContext) :
     return NAME
   }
 
+  override fun setAppBadgeCount(count: Double) {
+  }
+
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   @ReactMethod
-  override fun setAppBadgeCount(count: Int, promise: Promise) {
+  fun setAppBadgeCount(count: Int, promise: Promise) {
     promise.resolve(null)
   }
 
