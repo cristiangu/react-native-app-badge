@@ -1,6 +1,6 @@
 {
   "name": "@guulabs/react-native-app-badge",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "App badge for iOS.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
