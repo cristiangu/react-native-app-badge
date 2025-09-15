@@ -2,6 +2,7 @@ package com.guulabs.reactnativeappbadge
 
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.module.annotations.ReactModule
+import com.facebook.react.bridge.Promise
 
 @ReactModule(name = ReactNativeAppBadgeModule.NAME)
 class ReactNativeAppBadgeModule(reactContext: ReactApplicationContext) :
@@ -11,10 +12,8 @@ class ReactNativeAppBadgeModule(reactContext: ReactApplicationContext) :
     return NAME
   }
 
-  // Example method
-  // See https://reactnative.dev/docs/native-modules-android
-  override fun multiply(a: Double, b: Double): Double {
-    return a * b
+  override fun setAppBadgeCount(count: Double, promise: Promise) {
+    promise.resolve(null)
   }
 
   companion object {

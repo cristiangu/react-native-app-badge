@@ -1,6 +1,6 @@
 {
   "name": "@guulabs/react-native-app-badge",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "App badge for iOS.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -49,7 +49,7 @@
     "type": "git",
     "url": "git+https://github.com/cristiangu/react-native-app-badge.git"
   },
-  "author": "Cristian Gutu <hey@cristiangutu.pro> (https://github.com/cristiangu/react-native-app-badge)",
+  "author": "Cristian Gutu <hey@cristiangutu.pro> (https://github.com/cristiangu)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cristiangu/react-native-app-badge/issues"

@@ -1,5 +1,5 @@
 import ReactNativeAppBadge from './NativeReactNativeAppBadge';
 
-export function multiply(a: number, b: number): number {
-  return ReactNativeAppBadge.multiply(a, b);
+export function setAppBadgeCount(count: number): Promise<void> {
+  return ReactNativeAppBadge.setAppBadgeCount(count);
 }
